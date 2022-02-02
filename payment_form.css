@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 18px;
+    padding: 9px;
+}
+
+hr{
+    color: black;
+    height: 10px;
+}
+
+.box{
+    font-size: 40px;
+} 
+
+ p, 
+legend{
+    color:#F7CAC9;
+    font-family: 'Amatic SC', 'Permanent Marker', cursive;
+    font-size: 30px;
+
+} 
+.main_heading,
+.second_heading{
+    text-align: center;
+    color:#EFC050;
+}
+h2{
+    color:#EFC050
+    ;}
+
+/* .second_heading{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.container{
+    background-color: #34568B;
+    padding:5px 20px 15px 20px ;
+    border: 8px solid #DFCFBE;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid crimson;
+    border-radius: 8px;
+    margin: 8px;
+    
+}
+
+input[type="submit"]{
+background-color: #009B77  ;
+color:#EFC050;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+font-family: monospace;
+font-size: larger;
+}
+
+input[type="submit"]:hover{
+    background-color: lime;
+}
